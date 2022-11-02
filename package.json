@@ -1,0 +1,13 @@
+{
+	"name": "@ukrainian-social-platform/bip39-dictionaries",
+	"type": "module",
+	"scripts": {
+		"build": "tsup && ./postbuild.sh"
+	},
+	"devDependencies": {
+		"bip39": "^3.0.4",
+		"esbuild-plugin-yaml": "^0.0.1",
+		"tsup": "^6.3.0",
+		"typescript": "^4.8.4"
+	}
+}
